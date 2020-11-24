@@ -1,0 +1,15 @@
+Project Name:
+Developing Responsive layouts using Bootstrap
+
+Course Name:
+Full Stack Development
+
+Project Name:
+Enhancement of fortfolio website with react
+Tasks:
+1. Trim the long recommendation
+2. Launch a Bootstrap Modal
+
+
+Course Name:
+Full Stack Deveopment
