@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Food Delivery System</title>
+    <link rel='stylesheet' href="style.css">
+    <link rel='stylesheet' media='screen and (max-width: 1170px)' href='css/phone.css'>
+</head>
+<body>
+    <nav id='navbar'>
+        <div id='logo'>
+            <img src='logo.jpg'>
+        </div>
+        <ul>
+            <li class='item'><a href="#home">Home</a></li>
+            <li class='item'><a href="#services-cont">Services</a></li>
+            <li class='item'><a href="#client-section">About us</a></li>
+            <li class='item'><a href="#contact">Contact us</a></li>
+        </ul>
+    </nav>
+    <section id='home'>
+        <h1 class='h-primary'>Welcome to Food Delivery</h1>
+        <p>This is a Responsive food delivery site that i have made using HTML and CSS</p>
+        <button class='btn'>Order</button>
+    </section>
+    <section id='services-cont'>
+        <h1 class='h-primary center'>Our Services</h1>
+        <div id='services'>
+            <div class='box'>
+                <img src='bg.jpg' alt=''>
+                <h2 class='h-secondary center'>Food Catering</h2>
+                <p class='center'>
+                    We provide food catering for any event occuring in several metropolitan cities
+                </p>
+            </div>
+            <div class='box'>
+                <img src='bg1.jpg' alt=''>
+                <h2 class='h-secondary center'>Bulk Ordering</h2>
+                <p class='center'>
+                    We also provide the option of Bulk Ordering within Hyderabad
+                </p>
+            </div>
+            <div class='box'>
+                <img src='bg2.jpg' alt=''>
+                <h2 class='h-secondary center'>Food Ordering</h2>
+                <p class='center'>
+                    Food Ordering is available between 8am to 7pm everyday and will be good delivery speed
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id='client-section'>
+        <h1 class='h-primary center'>Our Clients</h1>
+        <div id='clients'>
+            <div class='client-item'>
+                <img src='l1.jpg' alt='Our client'>
+            </div>
+            <div class='client-item'>
+                <img src='l2.jpg' alt='Our client'>
+            </div>
+            <div class='client-item'>
+                <img src='l3.jpg' alt='Our client'>
+            </div>
+            <div class='client-item'>
+                <img src='l4.jpg' alt='Our client'>
+            </div>
+        </div>
+    </section>
+    <section id='contact'>
+        <h1 class='h-primary center'>Contact us</h1>
+        <div id='contact-box'>
+            <form action="#"> 
+                <div class="form-group"> 
+                    <label for="query"> 
+                        Type of Query 
+                    </label> 
+                    <select name="myQuery" id="query"> 
+                        <option value="sel" selected> 
+                            Select 
+                        </option> 
+                        <option value="ord"> 
+                            Order related Issues 
+                        </option> 
+                        <option value="Site"> 
+                            Site related Issues 
+                        </option> 
+                        <option value="fed"> 
+                            Complaint related Issues 
+                        </option> 
+                        <option value="others"> 
+                            Others 
+                        </option> 
+                    </select> 
+                </div> 
+                <div class="form-group"> 
+                    <label for="name">Name</label> 
+                    <input type="text" name="myName" 
+                        id="name" 
+                        placeholder="Enter your Name"> 
+                </div> 
+                <div class="form-group"> 
+                    <label for="email">Email-Id</label> 
+                    <input type="email" name="myEmail" 
+                        id="email" 
+                        placeholder="Enter your email"> 
+                </div> 
+                <div class="form-group"> 
+                    <label for="pho">Phone Number</label> 
+                    <input type="phone" name="myPhone" 
+                        id="pho" 
+                        placeholder="Enter your Phone no"> 
+                </div> 
+                <div class="form-group"> 
+                    <label for="message"> 
+                        Ellaborate your query 
+                    </label> 
+                    <textarea name="mesg" id="message" 
+                        cols="30" rows="10"> 
+                    </textarea> 
+                </div> 
+                <input type="submit" value="Submit"> 
+                <input type="reset" value="Reset"> 
+            </form> 
+        </div> 
+    </section>
+    <footer>Copyright © 2020-2021 OnlineFoodShop. 
+        All Rights are reserved</footer> 
+</body>
+</html>
